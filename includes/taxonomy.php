@@ -25,12 +25,12 @@ function foxnet_themes_shop_plugin_taxonomies() {
 		'menu_name' 		=> __( 'Doc Categories', 'foxnet-themes-shop-plugin' ),
 	); 	
 
-	$doc_category_args = apply_filters( 'edd_download_info_feature_args', array(
+	$doc_category_args = apply_filters( 'foxnet_themes_shop_plugin_doc_args', array(
 			'hierarchical' 	=> true,
 			'labels' 		=> apply_filters( 'foxnet_themes_shop_plugin_doc_labels', $doc_category_labels ),
 			'show_ui' 		=> true,
 			'query_var' 	=> 'doc_category',
-			'rewrite' 		=> array( 'slug' => 'docs/for' )
+			'rewrite' 		=> array( 'slug' => 'documents/for' )
 		)
 	);
 
