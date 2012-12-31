@@ -42,7 +42,6 @@ function foxnet_themes_shop_plugin_register_cpt_doc() {
 		'has_archive' 			=> true,
 		'query_var' 			=> true,
 		'can_export' 			=> true,
-		'rewrite' 				=> true,
 		'rewrite' 				=> array( 'slug' => 'docs' ),
 		'capability_type' 		=> 'doc',
 		'map_meta_cap' 			=> true,
