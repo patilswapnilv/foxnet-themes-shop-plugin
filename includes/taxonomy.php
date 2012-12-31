@@ -30,7 +30,14 @@ function foxnet_themes_shop_plugin_taxonomies() {
 			'labels' 		=> apply_filters( 'foxnet_themes_shop_plugin_doc_labels', $doc_category_labels ),
 			'show_ui' 		=> true,
 			'query_var' 	=> 'doc_category',
-			'rewrite' 		=> array( 'slug' => 'documents/for' )
+			/* Only 2 caps are needed: 'manage_doc_category' and 'edit_doc_category_items'. */
+			'capabilities' => array(
+				'manage_terms' => 'manage_doc_category',
+				'edit_terms' => 'manage_doc_category',
+				'delete_terms' => 'manage_doc_category',
+				'assign_terms' => 'edit_doc_category_items',
+			),
+			'rewrite' => array( 'slug' => 'documents/for', 'hierarchical' => false )
 		)
 	);
 
