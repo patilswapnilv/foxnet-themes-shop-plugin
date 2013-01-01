@@ -83,6 +83,7 @@ class Foxnet_Themes_Shop_Plugin {
 		require_once( FOXNET_THEMES_SHOP_PLUGIN_INCLUDES . 'post-types.php' );
 		require_once( FOXNET_THEMES_SHOP_PLUGIN_INCLUDES . 'taxonomy.php' );
 		require_once( FOXNET_THEMES_SHOP_PLUGIN_INCLUDES . 'login-screen.php' );
+		require_once( FOXNET_THEMES_SHOP_PLUGIN_INCLUDES . 'widget-newsletter.php' );
 		
 	}
 
