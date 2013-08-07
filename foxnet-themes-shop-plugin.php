@@ -3,7 +3,7 @@
  * Plugin Name: Foxnet Themes Shop Plugin
  * Plugin URI: http://foxnet-themes.fi
  * Description: Add stuff what we need in Foxnet Themes site.
- * Version: 0.1
+ * Version: 0.1.1
  * Author: Sami Keijonen
  * Author URI: http://foxnet-themes.fi
  * Contributors: samikeijonen
